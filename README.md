@@ -1,5 +1,7 @@
 # Al-jabr
 
+Algebra: (from Arabic "al-jabr" meaning "reunion of broken parts")
+
 This library is a core.matrix implementation for Clojure and Clojurescript,
 although the focus is on Clojurescript. It provides multidimensional
 arrays with cheap views and transposing.
