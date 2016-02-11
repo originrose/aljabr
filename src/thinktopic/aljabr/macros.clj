@@ -435,7 +435,7 @@
            (let [length# (apply * [~@shapes])
                  cloned-ary# (double-array length#)]
              (dotimes [i# length#] (aset cloned-ary# i# (aget ~data i#)))
-             (~'thinktopic.aljabr.core/ndarray ~type-id cloned-ary# [~@shapes])))
+             (thinktopic.aljabr.core/ndarray ~type-id cloned-ary# [~@shapes])))
 
          mp/PTypeInfo
          (mp/element-type [_#] ~type-id)
@@ -446,7 +446,7 @@
 
          mp/PVectorView
          (mp/as-vector [_#]
-           (~'ndarray ~type-id ~data [(apply * [~@shapes])]))
+           (thinktopic.aljabr.core/ndarray ~type-id ~data [(apply * [~@shapes])]))
 
          mp/PMatrixEquality
          (mp/matrix-equals [a# b#]

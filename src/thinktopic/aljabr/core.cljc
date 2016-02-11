@@ -8,6 +8,7 @@
       [thinktopic.aljabr.macros :refer [def-ndarray]])))
 
 (declare ndarray)
+
 #?(:cljs (enable-console-print!))
 
 (defn array-seq*
