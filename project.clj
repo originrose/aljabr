@@ -36,4 +36,7 @@
 
               :test-commands {"unit-tests" ["open" :runner "test.html"]}}
 
+  :deploy-repositories [["snapshots" :clojars]
+                        ["releases" :clojars]]
+
   :min-lein-vesion "2.5.0")
