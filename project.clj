@@ -1,4 +1,4 @@
-(defproject thinktopic/aljabr "0.1.0-SNAPSHOT"
+(defproject thinktopic/aljabr "0.1.0"
   :description  "A core.matrix implementation for Clojure and Clojurescript"
   :url          "http://github/thinktopic/aljabr"
   :license      {:name "Apache Software License 2.0"
