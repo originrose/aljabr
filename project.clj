@@ -1,11 +1,11 @@
-(defproject thinktopic/aljabr "0.1.0"
+(defproject thinktopic/aljabr "0.1.1"
   :description  "A core.matrix implementation for Clojure and Clojurescript"
   :url          "http://github/thinktopic/aljabr"
   :license      {:name "Apache Software License 2.0"
                  :url "http://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.7.228"]
-                 [net.mikera/core.matrix "0.50.0"]
+                 [net.mikera/core.matrix "0.51.0"]
                  [thi.ng/typedarrays "0.1.2"]]
 
   :plugins      [[lein-cljsbuild "1.0.6"]
