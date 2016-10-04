@@ -7,7 +7,7 @@ although the focus is on Clojurescript. It provides multidimensional
 arrays with cheap views and transposing.
 
 ```clj
-  [thinktopic/aljabr "0.4.0-SNAPSHOT"]
+  [thinktopic/aljabr "0.1.1"]
 ```
 
 ### Open Source History
